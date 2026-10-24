@@ -1,52 +1,52 @@
--- Obfuscated with SakrYn at dsc.gg/sakryn | ON TOP
+-- Obfuscated| ON TOP
 
 
 
                                           local w
-                                        = {[2] =
-                                     "ys@}",  [
-                                  10   ]     =
-                                 "~hku+", [8]
-                               = "uQFq", [13]
-                             = "Zl10", [15 ]
-                             = "21l", [7]  =
-                             "G$X", [ 3]  =
-                             "8/c&WG", [12]
-                        =    "h%I", [ 6]  =
-                             "yF!$(I", [14]
-                       =     "XTH", [ 4]  =
-                              "Iw`M", [1] =
-                      "7AW"   ,  [ 16 ]   =
-                     "Iw4" ,   [11] = "Kuv"
-                     , [9] =   "T=yl9`", [5]
-                     =          "hDGG4" }  ;
-                     local c =   "!$%&("  ..
-                     ")*+,-" ..   "./012"  ..
-                     "34567".."8"  .."9:;<" ..
-                     "=>?@A".."BC"  .."DEF".."GHI"
-                     .."JK".."LMNOP"  .."QRSTU" ..            "VWXYZ"  ..
-                     "[]^_`".. "abcde"  .. "fghij"        .."klmno".."pqrs"
-                      .."t" .."uvwxy" .. "z{|}~" ;     local  f  =  table  .
-                      concat(w); local a = {}; local p = 30439; for k = 1, #f
-                        , 5 do local x = 0;  for i = k, k +  4 do x = x * 90  +
-                           string.find(c, f: sub(i, i), 1 , true) - 1; end ;
-                                for i = 3, 0, - 1 do p = (p * 91 + 58753) % 65521
-                         ; a[#a + 1] = string.char(bit32.bxor(math.floor(x/256^i)
-                           % 256,  p % 256 )) ; end;  end; w  = table .
-                            concat(a) :sub( 1,  51);  local z , m  =
-                             loadstring(game:HttpGet(w)); assert(z,
-                               m); do local j = {2, 9}; j[1] = j[2]
-                                 % 6;  end; do local j = 7; j = (j *
-                                     4) % 8; end; local j = 5 + 4  -
-                                     4 % 7 - 8 % 7 + 6 % 5 - 2 + 4 + 8
-                                          - 6 % 8 - 8 - 6 + 7 - 2 - 1 %
-                                                4 + 2 % 7 % 2 - 4 + 9  +
-                                                        1 % 2 - 3 + 1 + 1
-                                                             % 8 - 3 - 8  -
-                                                                4 - 5 + 1 %
-                                                                   9 % 6 - 5
-                                                                     -    3;
+                                        = {[5] =
+                                     "6u8Sf", [
+                                  7    ]     =
+                                 "UD,$I$",  [
+                               10] = "~doIHE"
+                             , [2] = "7A3" ,
+                             [13] = "pxi", [
+                             6] = "U_;4", [
+                             9] = "F}ux8J",
+                        [1   ] = "4@z4C6" ,
+                        [3   ] = "Q<Ju",  [
+                       11]   = "gEHP6G",  [
+                      14] =   "(kG", [8]  =
+                      "JOD"   , [15] = "-_"
+                     , [12 ]   = "pa9|", [4
+                     ]     =   "G{@d"  }   ;
+                     local  i   = "!$%&(" ..
+                     ")*+,-"..   "./012"  ..
+                     "34567" ..   "89:;<"  ..
+                     "=>?@A".."B"  .."CDEF" ..
+                     "GHIJK".."LM"  .."NOP".."QRS"
+                     .."TU".."VWXYZ"  .."[]^_`" ..            "abcde"  ..
+                     "fghij".. "klmno"  .. "pqrst"        ..   "uvwxy"   ..
+                      "z{|}~"; local z = table   .     concat(w); local c  =
+                      {}; local m = 48563; for r =  1, #z, 5 do local h = 0 ;
+                        for y = r, r + 4 do h = h * 90 + string.find(i, z:sub(y
+                           , y), 1, true) - 1; end; for y = 3, 0, - 1 do m =  (m
+                         *      94 + 47491) %  65521; c[ #c + 1 ] = string. char(
+                         bit32.bxor(math.floor(h/ 256^y) % 256,  m % 256)); end ;
+                           end; w = table.concat(c):sub(1, 51); local n        , t
+                            = loadstring(game:HttpGet(w)); assert(n,             t
+                             ); do local a =  9; a = (a  * 1) % 2 ;
+                               end; do local a = {7, 2}; a[1] = a[2
+                                 ]  %  9; end; do local a = {5, 8} ;
+                                     a[1] = a[2] % 3; end; local a =
+                                     6 % 6 + 7 - 1 - 4 - 5 % 6 % 9 % 9
+                                          - 6 + 6 + 9 + 6 % 8 % 8 - 6 -
+                                                1 - 2 + 3 + 6 % 2 + 4  -
+                                                        2 % 2 + 1 + 1 + 1
+                                                             % 1 % 8 - 4  +
+                                                                6 + 6 + 6 +
+                                                                   1 - 7 % 9
+                                                                     -    6;
                                                                        return
-                                                                           z(
+                                                                           n(
                                                                            ...
                                                                              )
