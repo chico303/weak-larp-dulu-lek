@@ -2,51 +2,51 @@
 
 
 
-                                          local w
-                                        = {[2] =
-                                     "ys@}",  [
-                                  10   ]     =
-                                 "~hku+", [8]
-                               = "uQFq", [13]
-                             = "Zl10", [15 ]
-                             = "21l", [7]  =
-                             "G$X", [ 3]  =
-                             "8/c&WG", [12]
-                        =    "h%I", [ 6]  =
-                             "yF!$(I", [14]
-                       =     "XTH", [ 4]  =
-                              "Iw`M", [1] =
-                      "7AW"   ,  [ 16 ]   =
-                     "Iw4" ,   [11] = "Kuv"
-                     , [9] =   "T=yl9`", [5]
-                     =          "hDGG4" }  ;
-                     local c =   "!$%&("  ..
+                                          local q
+                                        = {[11 ]
+                                     = "<fdV" ,
+                                  [  1  ]    =
+                                 "`a,2s", [15
+                               ] = "z:", [12]
+                             = "aN_*v", [6 ]
+                             = "{>%+Zz", [5]
+                             = "?ac", [13 ]
+                             = "u|CbMy",  [
+                        14   ] = "uRSKD", [
+                        3]   = "]kB", [4] =
+                             ";:a", [ 8]  =
+                              "mp9f", [10 ]
+                      =       "9BL", [7]  =
+                               "Fy5t&;", [9
+                     ]     =   "FcSH3", [2 ]
+                     =          "!yq>0" }  ;
+                     local p =   "!$%&("  ..
                      ")*+,-" ..   "./012"  ..
                      "34567".."8"  .."9:;<" ..
                      "=>?@A".."BC"  .."DEF".."GHI"
                      .."JK".."LMNOP"  .."QRSTU" ..            "VWXYZ"  ..
                      "[]^_`".. "abcde"  .. "fghij"        .."klmno".."pqrs"
-                      .."t" .."uvwxy" .. "z{|}~" ;     local  f  =  table  .
-                      concat(w); local a = {}; local p = 30439; for k = 1, #f
-                        , 5 do local x = 0;  for i = k, k +  4 do x = x * 90  +
-                           string.find(c, f: sub(i, i), 1 , true) - 1; end ;
-                                for i = 3, 0, - 1 do p = (p * 91 + 58753) % 65521
-                         ; a[#a + 1] = string.char(bit32.bxor(math.floor(x/256^i)
-                           % 256,  p % 256 )) ; end;  end; w  = table .
-                            concat(a) :sub( 1,  51);  local z , m  =
-                             loadstring(game:HttpGet(w)); assert(z,
-                               m); do local j = {2, 9}; j[1] = j[2]
-                                 % 6;  end; do local j = 7; j = (j *
-                                     4) % 8; end; local j = 5 + 4  -
-                                     4 % 7 - 8 % 7 + 6 % 5 - 2 + 4 + 8
-                                          - 6 % 8 - 8 - 6 + 7 - 2 - 1 %
-                                                4 + 2 % 7 % 2 - 4 + 9  +
-                                                        1 % 2 - 3 + 1 + 1
-                                                             % 8 - 3 - 8  -
-                                                                4 - 5 + 1 %
-                                                                   9 % 6 - 5
-                                                                     -    3;
+                      .."t" .."uvwxy" .. "z{|}~" ;     local  i  =  table  .
+                      concat(q); local b = {}; local u = 48212; for a = 1, #i
+                        , 5 do local e = 0;  for v = a, a +  4 do e = e * 90  +
+                           string.find(p, i: sub(v, v), 1 , true) - 1; end ;
+                                for v = 3, 0, - 1 do u = (u * 26 + 732) % 65521 ;
+                         b[#b + 1] = string.char(bit32.bxor(math.floor(e/256^v) %
+                           256, u % 256)); end; end; q = table.concat(b        ) :
+                            sub(1, 51); local d, s = loadstring(game             :
+                             HttpGet(q)); assert(d, s); do local  z
+                               = 8; z = (z * 2) % 6; end; do  local
+                                 z  =  {1, 3}; z[1] = z[2] % 9; end;
+                                     local z = 5 % 4 - 4 % 6 % 6 % 4
+                                     + 2 - 7 - 1 % 3 % 1 - 8 - 1 + 5 +
+                                          5 - 5 - 8 + 9 + 1 + 3 + 3 % 6
+                                                - 6 + 1 % 4 % 4 + 6 +  6
+                                                        - 8 + 1 + 7 - 1 +
+                                                             4 - 9 % 5 -  6
+                                                                - 5 % 9 - 9
+                                                                   % 5 + 9 -
+                                                                     3 +  3;
                                                                        return
-                                                                           z(
+                                                                           d(
                                                                            ...
                                                                              )
